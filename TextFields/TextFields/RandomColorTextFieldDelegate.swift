@@ -11,12 +11,13 @@ import UIKit
 
 class RandomColorTextFieldDelegate: NSObject, UITextFieldDelegate
 {
+    /// List of available colors.
     let colors = [UIColor.blackColor(),
         UIColor.redColor(),
-        UIColor.orangeColor(),
+        UIColor.yellowColor(),
         UIColor.blueColor(),
         UIColor.greenColor(),
-        UIColor.purpleColor()]
+        UIColor.orangeColor()]
     
     /// :returns: a random color from those declared in `colors`.
     func randomColor() -> UIColor {
