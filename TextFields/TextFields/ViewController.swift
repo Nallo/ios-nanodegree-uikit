@@ -17,6 +17,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var lockSwitch: UISwitch!
     
     //TODO: Text Field Delegate objects
+    let zipCodeTextFieldDelegate = ZIPCodeTextFieldDelegate()
     
     // Life Cycle Methods
 
@@ -24,6 +25,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         //TODO: Set the four delegates
+        self.zipCodeTextField.delegate = zipCodeTextFieldDelegate
     }
 
     
