@@ -17,6 +17,7 @@
 		4D08C4921A12860200A95F43 /* ColorizerTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */; };
 		7BC46AB11BA56BC8008CE423 /* RandomColorTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC46AB01BA56BC8008CE423 /* RandomColorTextFieldDelegate.swift */; };
 		7BE1C1BF1BA5B4BC009F978C /* ZIPCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE1C1BE1BA5B4BC009F978C /* ZIPCodeTextFieldDelegate.swift */; };
+		7BE1C1C11BA5D605009F978C /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE1C1C01BA5D605009F978C /* CashTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorizerTextFieldDelegate.swift; sourceTree = "<group>"; };
 		7BC46AB01BA56BC8008CE423 /* RandomColorTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomColorTextFieldDelegate.swift; sourceTree = "<group>"; };
 		7BE1C1BE1BA5B4BC009F978C /* ZIPCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZIPCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		7BE1C1C01BA5D605009F978C /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */,
 				7BC46AB01BA56BC8008CE423 /* RandomColorTextFieldDelegate.swift */,
 				7BE1C1BE1BA5B4BC009F978C /* ZIPCodeTextFieldDelegate.swift */,
+				7BE1C1C01BA5D605009F978C /* CashTextFieldDelegate.swift */,
 			);
 			name = "Text Field Delegates";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE1C1C11BA5D605009F978C /* CashTextFieldDelegate.swift in Sources */,
 				4D08C4921A12860200A95F43 /* ColorizerTextFieldDelegate.swift in Sources */,
 				7BE1C1BF1BA5B4BC009F978C /* ZIPCodeTextFieldDelegate.swift in Sources */,
 				4D08C4721A126D0300A95F43 /* ViewController.swift in Sources */,

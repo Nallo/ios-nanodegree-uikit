@@ -16,16 +16,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var lockableTextField: UITextField!
     @IBOutlet weak var lockSwitch: UISwitch!
     
-    //TODO: Text Field Delegate objects
+    // Text Field Delegate objects
     let zipCodeTextFieldDelegate = ZIPCodeTextFieldDelegate()
-    
+    let cashTextFieldDelegate = CashTextFieldDelegate()
+
     // Life Cycle Methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //TODO: Set the four delegates
+        // Set the delegates
         self.zipCodeTextField.delegate = zipCodeTextFieldDelegate
+        self.cashTextField.delegate = cashTextFieldDelegate
     }
     
     /// Fired when the Switch changes its value.
