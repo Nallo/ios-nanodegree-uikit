@@ -27,13 +27,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //TODO: Set the four delegates
         self.zipCodeTextField.delegate = zipCodeTextFieldDelegate
     }
-
     
-    //TODO Text Field Delegate Methods
-    
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-
-        return true;
+    /// Fired when the Switch changes its value.
+    ///
+    /// :sender: the `UISwitch`.
+    ///
+    @IBAction func switchValueChanged(sender: UISwitch) {
+        lockableTextField.enabled = sender.on
     }
 }
-
