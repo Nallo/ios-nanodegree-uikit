@@ -92,18 +92,3 @@ class ColorizerTextFieldDelegate : NSObject, UITextFieldDelegate {
     }
        
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
