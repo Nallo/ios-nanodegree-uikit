@@ -19,7 +19,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     // Text Field Delegate objects
     let zipCodeTextFieldDelegate = ZIPCodeTextFieldDelegate()
     let cashTextFieldDelegate = CashTextFieldDelegate()
-
+    let randomColorTextFieldDelegate = RandomColorTextFieldDelegate()
+    
     // Life Cycle Methods
 
     override func viewDidLoad() {
@@ -28,6 +29,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Set the delegates
         self.zipCodeTextField.delegate = zipCodeTextFieldDelegate
         self.cashTextField.delegate = cashTextFieldDelegate
+        self.lockableTextField.delegate = randomColorTextFieldDelegate
     }
     
     /// Fired when the Switch changes its value.
