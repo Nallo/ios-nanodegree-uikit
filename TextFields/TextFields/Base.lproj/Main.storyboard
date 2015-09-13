@@ -51,6 +51,12 @@
                             <constraint firstItem="Vme-V5-vgh" firstAttribute="top" secondItem="uma-Es-8sb" secondAttribute="bottom" constant="8" symbolic="YES" id="woI-so-8oO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cashTextField" destination="uma-Es-8sb" id="b8w-HK-qxu"/>
+                        <outlet property="lockSwitch" destination="Vme-V5-vgh" id="GRM-jj-0pF"/>
+                        <outlet property="lockableTextField" destination="ugN-tp-iH5" id="10B-8C-lFU"/>
+                        <outlet property="zipCodeTextField" destination="zJF-3H-5nI" id="bkA-dh-unt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

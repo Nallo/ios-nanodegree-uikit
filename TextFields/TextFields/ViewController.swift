@@ -10,7 +10,11 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
-    //TODO: Outlets
+    // Outlets
+    @IBOutlet weak var zipCodeTextField: UITextField!
+    @IBOutlet weak var cashTextField: UITextField!
+    @IBOutlet weak var lockableTextField: UITextField!
+    @IBOutlet weak var lockSwitch: UISwitch!
     
     //TODO: Text Field Delegate objects
     
